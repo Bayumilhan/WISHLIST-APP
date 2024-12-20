@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Laptop",
+      "category": "Elektronik",
+      "price": 15000000,
+      "priority": true,
+      "bought": false
+    },
+    {
+      "id": 2,
+      "name": "Novel",
+      "category": "Buku",
+      "price": 100000,
+      "priority": false,
+      "bought": true
+    },
+    {
+      "id": 3,
+      "name": "Sepatu",
+      "category": "Fashion",
+      "price": 300000,
+      "priority": false,
+      "bought": true
+    }
+  ]
+  

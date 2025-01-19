@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 
 function Priorities() {
   const [items, setItems] = useState([]);
-
+// set prioritas
   useEffect(() => {
     fetch("/data/wishlist.json")
       .then((res) => res.json())
-      .then((data) => setItems(data.filter((item) => item.priority)));
+      .then((data) => setItems(data.wishlist.filter((item) => item.priority)));
   }, []);
 
   return (

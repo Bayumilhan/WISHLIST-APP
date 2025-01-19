@@ -12,6 +12,8 @@ import Budget from "./pages/Budget";
 
 function App() {
   return (
+    <div className="bg-gray-100 min-h-screen">
+
     <div>
       <Navbar />
       <Routes>
@@ -23,6 +25,7 @@ function App() {
         <Route path="/history" element={<History />} />
         <Route path="/budget" element={<Budget />} />
       </Routes>
+    </div>
     </div>
   );
 }

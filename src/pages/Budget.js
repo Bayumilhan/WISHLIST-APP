@@ -7,9 +7,9 @@ function Budget() {
   useEffect(() => {
     fetch("/data/wishlist.json")
       .then((res) => res.json())
-      .then((data) => setItems(data));
+      .then((data) => setItems(data.wishlist));
   }, []);
-
+// total semua item di wishlist
   const total = items.reduce((sum, item) => sum + item.price, 0);
 
   return (

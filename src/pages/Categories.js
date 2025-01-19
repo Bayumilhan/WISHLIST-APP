@@ -6,9 +6,10 @@ function Categories() {
   useEffect(() => {
     fetch("/data/wishlist.json")
       .then((res) => res.json())
-      .then((data) => setItems(data));
+      .then((data) => setItems(data.wishlist));
   }, []);
 
+  // set kategori
   const categories = [...new Set(items.map((item) => item.category))];
 
   return (

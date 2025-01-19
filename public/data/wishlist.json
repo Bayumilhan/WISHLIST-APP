@@ -1,19 +1,12 @@
-[
+{
+  "wishlist": [
     {
       "id": 1,
       "name": "Laptop",
       "category": "Elektronik",
-      "price": 15000000,
+      "price": 7000000,
       "priority": true,
       "bought": false
-    },
-    {
-      "id": 2,
-      "name": "Novel",
-      "category": "Buku",
-      "price": 100000,
-      "priority": false,
-      "bought": true
     },
     {
       "id": 3,
@@ -21,7 +14,30 @@
       "category": "Fashion",
       "price": 300000,
       "priority": false,
+      "bought": false
+    },
+    {
+      "id": 4,
+      "name": "HP",
+      "category": "Elektronik",
+      "price": 5000000,
+      "priority": false,
+      "bought": false
+    },
+    {
+      "name": "pergi ke pantai",
+      "category": "Liburan",
+      "price": 300000,
+      "priority": false,
+      "id": 9
+    },
+    {
+      "name": "Cam",
+      "category": "Elektronik",
+      "price": 7000000,
+      "priority": true,
+      "id": 10,
       "bought": true
     }
   ]
-  
+}
